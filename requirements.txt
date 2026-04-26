@@ -1,0 +1,11 @@
+# Core
+transformers>=4.30.0
+sentencepiece
+torch
+fuzzywuzzy
+python-Levenshtein
+
+# Optional — install the one matching your database
+# psycopg2-binary   # PostgreSQL
+# pymysql           # MySQL
+# pymongo           # MongoDB

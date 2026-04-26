@@ -1,3 +1,31 @@
-dist/
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Models (large HuggingFace cache — don't commit)
+*.bin
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
